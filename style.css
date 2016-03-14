@@ -1,0 +1,70 @@
+.container{
+    width: max-content;
+    margin: 10px;
+}
+
+#board{
+    margin: 10px;
+}
+#result{
+    text-align: center;
+}
+
+table {
+    background-color: lightgrey;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border: 1px solid black;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    
+    -moz-box-shadow: 1px 1px black;
+    -webkit-box-shadow: 1px 1px black;
+    box-shadow: 1px 1px black;   
+}
+
+.visited {    
+    background-color: darkgrey;
+    
+    -moz-box-shadow: 1px 1px black inset;
+    -webkit-box-shadow: 1px 1px black inset;
+    box-shadow: 1px 1px black inset;
+}
+
+td:active {
+    background-color: grey;
+}
+
+.wrong {
+    text-decoration: line-through;
+}
+
+.revealed {
+    border-color: black;
+    background-color: dimgrey;
+}
+
+._M {
+    color: red;
+}
+
+._1 {
+    color: blue;
+}
+
+._2 {
+    color: green;
+}
+
+._3 {
+    color: orangered;
+}
+
+._4 {
+    color: aqua
+}
