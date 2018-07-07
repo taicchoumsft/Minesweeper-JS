@@ -81,6 +81,7 @@ class Board {
       for (let n = 0; n < this.meta.numCols; n++) {
         row.push(String(this.board[this.toIdx(m, n)] || " "));
       }
+      console.log(row);
     }
   }
 
